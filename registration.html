@@ -1,0 +1,56 @@
+<html>
+<head>
+<script src="validate.js"></script>
+<title>Registration FORM</title>
+</head>
+<body bgcolor="#99ffcc">
+<h1 size=50  align="center"><font color="red">Registration Form</h1>
+<form action="right.html" name="form2" onsubmit="return validate()">
+<table style="text-align:left"  align="center"> 
+<tr>
+<td><b>Name *:</b></td>
+<td><input type="text" name="txt1" placeholder="Name" autofocus required></td>
+</tr>
+<tr> 
+<td><b>Password *:</b></td>
+<td><input type="password" name="txt2" required></td>
+</tr>
+<tr>
+<td><b>Email id *:</b></td>
+<td><input type="email" name="txt3" required></td>
+</tr>
+<tr>
+<td><b>Phone no *:</b></td>
+<td><input type="text" name="txt5" required></td>
+</tr>
+<tr>
+<td><b>Date Of Birth *:</td>
+<td><input type="date" name="txt4"></td>
+</tr>
+<tr>
+<td rowspan="2"><b>Gender *:</b></td>
+<td><input type="radio" name="g1"><b>male</b></td>
+<tr>
+<td><input type="radio" name="g2"><b>female</b><br></td>
+</tr>
+<tr>
+<td rowspan="3"><b>Language known *:</b></td>
+<td><input type="checkbox" name="c1" ><b>English</b></td>
+</tr>
+<tr>
+<td><input type="checkbox" name="c2" ><b>Hindi</b></td>
+</tr>
+<tr>
+<td><input type="checkbox" name="c3"><b>Telugu<br></b></td>
+</tr>
+<tr>
+<td><b>Address *:</b></td>
+<td><textarea rows="5" cols="25"  required></textarea></td>
+</tr>
+<tr>
+<td><input type="submit" value="LOGIN" name="login"></td>	
+<td><input type="reset" name="c4" value="CLEAR" ></td>
+</table>
+</form>
+</body>
+</html>
